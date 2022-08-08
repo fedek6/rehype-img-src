@@ -1,3 +1,6 @@
+import path from 'path'
+import {visit} from 'unist-util-visit'
+
 type a = {
   aaa: number;
   bbb: number;
@@ -8,4 +11,5 @@ export const test: a = {
   bbb: 2
 }
 
-console.log(test);
+console.log(path);
+console.log(visit);
