@@ -38,5 +38,9 @@
   "dependencies": {
     "image-size": "^1.0.2",
     "unist-util-visit": "^4.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
